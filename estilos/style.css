@@ -105,3 +105,24 @@ section.imagens-hotel > hr{
     margin-bottom: 70px;
 
 }
+
+section.imagens-hotel > ul.grid{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section.imagens-hotel > ul.grid > li {
+    height: 30vh;
+    padding: 20px;
+    border-radius: 7px;
+
+    background-size: cover;
+    background-clip: content-box;
+    
+}
+section.imagens-hotel > ul.grid > li{
+    flex-basis: 95%;
+
+}

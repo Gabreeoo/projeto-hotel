@@ -1,6 +1,59 @@
-@media screen and (min-width:660px ) {
+@charset "UTF-8";
+
+/* TABLETS */
+
+@media screen and (min-width:660px ) and (max-width:1000px) {
     header{
         flex-direction: row;
     }
+    section.imagens-hotel > ul.grid > li {
+        height: 30vh;
+        padding: 20px;
+        border-radius: 7px;
     
+        background-size: cover;
+        background-clip: content-box;
+        
+    }
+    section.imagens-hotel > ul.grid > li{
+        margin: 5px 5px;
+    }
+    section.imagens-hotel > ul.grid > li.small{
+        flex-basis: 40%;
+        background-size: contain;
+        background-position: center bottom;
+    
+    }
+    section.imagens-hotel > ul.grid > li.large{
+        flex-basis: 50%;
+    }
+}
+
+/* TELAS GRANDES */
+
+@media screen and (min-width: 1000px) {
+    header{
+        flex-direction: row;
+    }
+    section.imagens-hotel > ul.grid > li {
+        height: 40vh;
+        padding: 20px;
+        border-radius: 7px;
+    
+        background-size: cover;
+        background-clip: content-box;
+        
+    }
+    section.imagens-hotel > ul.grid > li{
+        margin: 5px 5px;
+    }
+    section.imagens-hotel > ul.grid > li.small{
+        flex-basis: 40%;
+        background-size: contain;
+        background-position: center bottom;
+    
+    }
+    section.imagens-hotel > ul.grid > li.large{
+        flex-basis: 50%;
+    }
 }
