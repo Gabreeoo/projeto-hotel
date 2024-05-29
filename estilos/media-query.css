@@ -1,0 +1,6 @@
+@media screen and (min-width:660px ) {
+    header{
+        flex-direction: row;
+    }
+    
+}
