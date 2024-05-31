@@ -201,6 +201,7 @@ form#formulario{
     display: flex;
     margin-bottom: 50px;
     justify-content: center;
+    margin: auto;
     
 }
 
