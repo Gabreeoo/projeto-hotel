@@ -56,4 +56,7 @@
     section.imagens-hotel > ul.grid > li.large{
         flex-basis: 50%;
     }
+    section.caracteristicas  span{
+        font-size: 3em;
+    }
 }

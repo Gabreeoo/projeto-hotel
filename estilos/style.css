@@ -33,7 +33,7 @@ header nav{
     display: flex;
 }
 
-li, a{
+ li,a{
     text-decoration: none;
     list-style-type: none;
 
@@ -145,10 +145,17 @@ section.caracteristicas > ul.grid{
     width: 100%;
 }
 section.caracteristicas > h2{
-    padding-top: 20px;
+    padding: 10px 5px;
+    padding-top: 30px;
     font-size: 2em;
     margin-bottom: 20px;
 }
+
+section.caracteristicas > p{
+    padding: 5px;
+    padding-top: 0px;
+}
+
 section.caracteristicas >ul > li{
     font-size: 1em; 
     color: white;
@@ -159,4 +166,38 @@ section.caracteristicas > hr{
     margin:auto;
     margin-top: 30px;
     margin-bottom: 20px;
+}
+
+/* Newsletter */
+
+section.newsletter{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    text-align: center;
+    color: #020296;
+    margin-bottom: 50px;
+    
+}
+
+section.newsletter > h2{
+    margin-top: 50px;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+section.newsletter > p {
+    margin-bottom: 25px;
+}
+
+section.newsletter > hr{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+section.newslatter > form{
+    display: flex;
+    padding-bottom: 50px;
 }
