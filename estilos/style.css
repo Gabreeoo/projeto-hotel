@@ -195,6 +195,7 @@ section.newsletter > hr{
     width: 250px;
     margin: auto;
     margin-bottom: 30px;
+    color: #020296;
 }
 
 form#formulario{
@@ -221,6 +222,6 @@ form#formulario > input[type=email]{
     border: none;
     border-radius: 20px;
     background-color: rgba(204, 203, 203, 0.493);
-    width: 300px;
+    width: 250px;
     text-align: center;
 }
