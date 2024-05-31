@@ -80,7 +80,7 @@ section.hero > h1, section.hero >h2{
     color: white;
 }
 
-/* IMAGENS DO HOTEL */
+/* TEXTO EM CIMA DAS IMAGENS */
 
 section.imagens-hotel{
     display: flex;
@@ -106,6 +106,8 @@ section.imagens-hotel > hr{
 
 }
 
+/* IMAGENS DO HOTEL */
+
 section.imagens-hotel > ul.grid{
     width: 100%;
     display: flex;
@@ -128,4 +130,43 @@ section.imagens-hotel > ul.grid > li {
 section.imagens-hotel > ul.grid > li{
     flex-basis: 95%;
 
+}
+
+/* CARACTERISTICAS */
+
+section.caracteristicas{
+    background-color: #020296;
+    color: white;
+    text-align: center;
+}
+
+section.caracteristicas > ul.grid{
+    display: flex;  
+    
+    width: 100%;
+    color: white;
+}
+section.caracterisiticas > ul.grid > li{
+    padding: 0px 15px;
+    color: white;
+}
+section.caracteristicas > h2{
+    padding-top: 20px;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white;
+}
+section.caracteristicas >ul > li{
+    font-size: 1em; 
+    margin-bottom:30px;
+    color: white;
+}
+section.caracteristicas > hr{
+    width: 200px;
+    height: 2px;
+    margin-bottom: 70px;
+    color: rgb(255, 255, 255);
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
