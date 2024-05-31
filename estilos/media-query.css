@@ -27,6 +27,7 @@
     section.imagens-hotel > ul.grid > li.large{
         flex-basis: 50%;
     }
+
     form#formulario > input[type=email]{
         width: 350px;
         margin-bottom: 100px;
@@ -61,8 +62,14 @@
     section.imagens-hotel > ul.grid > li.large{
         flex-basis: 50%;
     }
+
+    section.caracteristicas> ul.grid{
+        flex-direction: row
+    }
+
     section.caracteristicas  span{
         font-size: 3em;
+
     }
     form#formulario > input[type=email]{
         width: 350px;
