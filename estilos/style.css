@@ -197,7 +197,29 @@ section.newsletter > hr{
     margin-bottom: 30px;
 }
 
-section.newslatter > form{
+form#formulario{
     display: flex;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    
+}
+
+form#formulario > input[type=submit]{
+    border-radius: 20px;
+    margin-left: 10px;
+    border: none;
+
+    background-color: #020296;
+    color: white;
+    height: 35px;
+    width:90px;
+    cursor: pointer;
+}
+
+form#formulario > input[type=email]{
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(204, 203, 203, 0.493);
+    width: 300px;
+    text-align: center;
 }
