@@ -141,31 +141,21 @@ section.caracteristicas{
 }
 
 section.caracteristicas > ul.grid{
-    display: flex;  
-    
+    display: flex;     
     width: 100%;
-    color: white;
-}
-section.caracterisiticas > ul.grid > li{
-    padding: 0px 15px;
-    color: white;
 }
 section.caracteristicas > h2{
     padding-top: 20px;
     font-size: 2em;
     margin-bottom: 20px;
-    color: white;
 }
 section.caracteristicas >ul > li{
     font-size: 1em; 
-    margin-bottom:30px;
     color: white;
 }
 section.caracteristicas > hr{
-    width: 200px;
+    width: 250px;
     height: 2px;
-    margin-bottom: 70px;
-    color: rgb(255, 255, 255);
     margin:auto;
     margin-top: 30px;
     margin-bottom: 20px;
