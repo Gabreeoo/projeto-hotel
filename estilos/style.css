@@ -196,6 +196,7 @@ section.newsletter > h2{
 
 section.newsletter > p {
     margin-bottom: 25px;
+    padding: 0px 5px;
 }
 
 section.newsletter > hr{
@@ -231,4 +232,23 @@ form#formulario > input[type=email]{
     background-color: rgba(204, 203, 203, 0.493);
     width: 250px;
     text-align: center;
+}
+
+/* FOOTER */
+
+div#imagens-footer{
+    display: flex;
+    justify-content: center;
+}
+
+div#imagens-footer a{
+    padding: 0px;
+    margin: 10px;
+}
+
+footer > div#imagens-footer > a > i{
+    color: #020296;
+    font-size: 30px;
+    margin: 10px;
+
 }
